@@ -1,0 +1,7 @@
+node_modules/
+.openai/
+.sites-local/
+*.tar.gz
+*.tgz
+*.log
+.DS_Store

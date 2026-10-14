@@ -1,0 +1,12 @@
+{
+  "name": "chronicles-of-rose",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check story.js && node --check moon-quest.js && node --check story-state.js && node --check quest-state.js && node --check garden-layout.js && node --check meadow-world.js && node --check meadow-stream.js && node --check server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
